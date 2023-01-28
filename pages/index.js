@@ -11,7 +11,7 @@ export default function Home() {
       <h1>Next.js w/ Firebase</h1>
       <Link prefetch={false} href='/matt3'>Matt's Profile</Link>
       <Loader show />
-      <button onClick={() => toast.success('Hellow Toast')}>Toast Me</button>
+      <button onClick={() => toast.success('Hello Toast')}>Toast Me</button>
     </div>
   )
 }
