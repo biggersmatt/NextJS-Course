@@ -5,7 +5,6 @@ import { UserContext } from '../lib/context';
 
 export default function EnterPage () {
   const { user, username } = useContext(UserContext);
-  console.log(user, username)
 
   return (
     <main>
